@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"/>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"/>
+</menu>
+<!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/menu/menu_main_page.xml -->

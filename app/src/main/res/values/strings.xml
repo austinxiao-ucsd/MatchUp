@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">MatchUp</string>
+    <string name="title_activity_sign_up_page">SignUpPage</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_date_picks">DatePicks</string>
+
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <string name="welcome">Pick Available Times: </string>
+    <string name="set_date">Set Date</string>
+    <string name="title_activity_scrolling_links">ScrollingLinks</string>
+
+    <string name="data_structures">
+        "Knowledge of data structures is an extremely important part of any programmer’s skill set because data structures are simply unavoidable when programming. Remember – even a simple array is a data structure. And, as a programmer, you should know the advantages and disadvantages of the different types of data structures in order to write efficient code. For almost any programming job you interview for (regardless of what languages you will be programming in), most companies will undoubtedly ask questions in the interview regarding data structures.\n"
+        "\n"
+        "1) What is data structure?\n"
+        "\n"
+        "2) Differentiate file structure from storage structure.\n"
+        "\n"
+        "3) When is a binary search best applied?\n"
+        "\n"
+        "4) What is a linked list?\n"
+        "\n"
+        "5) How do you reference all the elements in a one-dimension array?\n"
+        "\n"
+    </string>
+
+    <string name="programming_languages">
+        "Programming questions are integral part of any Java or C++ programmer or software analyst interview. No matter on which language you have expertise it’s expected that you are familiar with fundamental of programming and can solve problems without taking help of API.\n"
+        "\n"
+        "Click on the button below to know more.\n"
+        "\n"
+        "1) What is difference between String, StringBuilder and StringBuffer in Java?\n"
+        "\n"
+        "2) Why String in final in Java?\n"
+        "\n"
+        "3) How to split string in Java?\n"
+        "\n"
+        "4) What is an abstract class in C++?\n"
+        "\n"
+        "5) Name the data type which can be used to store wide characters in C++. \n"
+        "\n"
+    </string>
+
+    <string name="time_complexity">
+        "Most of the time, the interviewer will ask you for the run time of your program, meaning the big O complexity, which is the worst-case analysis of the running time. In some cases, such as when dealing with popular algorithms that have a bad big O analysis (eg. quicksort), it is useful to know the average running time as well.\n"
+        "\n"
+        "1) Given a tree, print the in order traversal of values, depth by depth.\n"
+        "\n"
+        "2) Can Binary Search be used for linked lists? \n"
+        "\n"
+        "3) What does the worst case of QuickSort occur?\n"
+        "\n"
+        "4) A sorted array is rotated at some unknown point, how to efficiently search an element in it. \n"
+        "\n"
+        "5) When does the worst case of QuickSort occur?\n"
+        "\n"
+    </string>
+
+    <string name="algorithms_questions">
+        "1) It's really rare for an interviewer to ask you to implement a specific complicated and long algorithm (such as Dijkstra, A*, etc). However, you should have an idea how these work, what they are used for and to be able to conduct a basic conversation when the subject is involving a well-known algorithm. Also, it is recommended to know what and how Dynamic Programming works and to be able to recognize it.\n"
+        "\n"
+        "2) Write an algorithm to show the postfix expression with the input given as : a b + c d +*f ?\n"
+        "\n"
+        "3) Write an algorithm through which the inserting and deleting of elements can take place in circular queue?\n"
+        "\n"
+        "4) How expression trees are gets represented in data structure?\n"
+        "\n"
+        "5) Given the daily values of a stock, find how you can lose the most with one buy-sell trading.\n"
+        "\n"
+    </string>
+
+    <string name="general_questions">
+        "Below is a list of general questions you might encounter during your interview.\n"
+        "Click on the button below to know more.\n"
+        "1) Can you tell me a little about yourself?\n"
+        "\n"
+        "2) How did you hear about the position?\n"
+        "\n"
+        "3) What do you know about the company?\n"
+        "\n"
+        "4) Why do you want this job?\n"
+        "\n"
+        "5) What is your career goal?\n"
+        "\n"
+    </string>
+
+
+
+    <string name="title_activity_resource_links">ResourceLinks</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_interview_links">InterviewLinks</string>
+    <string name="title_activity_match_dialog">MatchDialog</string>
+    <string name="title_activity_test_pop_up">TestPopUp</string>
+    <string name="title_activity_invitation">Invitation</string>
+
+
+    <string name="facebook_app_id">749654201844960</string>
+    <string name="title_activity_test_post">TestPost</string>
+    <string name="title_activity_paired_adapter">PairedAdapter</string>
+    <string name="title_activity_change_existing_event">ChangeExistingEvent</string>
+</resources>

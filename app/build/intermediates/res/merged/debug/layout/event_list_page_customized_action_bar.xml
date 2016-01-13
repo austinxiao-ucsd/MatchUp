@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="#3f51b5">
+
+    <ImageButton
+        android:id="@+id/eventListPageActionBarRefresh"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_navigation_refresh"
+        android:layout_margin="5dp"
+        android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/eventListPageActionBarAdd"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_action_content_add"
+        android:layout_margin="5dp"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/eventListPageActionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="MatchUp!"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout><!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/layout/event_list_page_customized_action_bar.xml -->

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/values-v14/styles_customized_action_bar.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Customized_action_bar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_customized_action_bar</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_customized_action_bar</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_customized_action_bar</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Customized_action_bar</item>
+    </style>
+    <style name="ActionBar.Transparent.Customized_action_bar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_customized_action_bar</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Customized_action_bar</item>
+    </style>
+    <!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.StatusBar.EventContent.Info"/>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time"/>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/values-v14/styles_customized_action_bar.xml -->
+    <eat-comment/>
+    <style name="Theme.Customized_action_bar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_customized_action_bar</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Customized_action_bar</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Customized_action_bar</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Customized_action_bar</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Customized_action_bar</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Customized_action_bar</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_customized_action_bar</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_customized_action_bar</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Customized_action_bar</item>
+        
+        
+    </style>
+    <style name="Theme.Customized_action_bar.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Customized_action_bar</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Customized_action_bar</item>
+    </style>
+</resources>

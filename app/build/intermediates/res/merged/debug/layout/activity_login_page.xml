@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".LoginPage"
+    android:background="#ffffff">
+
+    <include layout="@layout/default_customized_action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/loginPageUsername"
+            android:hint="Username"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/loginPagePassword"
+            android:layout_alignEnd="@+id/loginPagePassword"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@id/loginPageUsername"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/loginPagePassword"
+            android:hint="Password"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/loginPageSignInButton"
+            android:layout_alignEnd="@+id/loginPageSignInButton"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:id="@+id/loginPageSignInButton"
+            android:textAllCaps="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/loginPageForgetPasswordButton"
+            android:layout_alignEnd="@+id/loginPageForgetPasswordButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="2pt"
+            android:layout_below="@id/loginPagePassword"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/loginPageNewUserButton"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password"
+            android:id="@+id/loginPageForgetPasswordButton"
+            android:textAllCaps="false"
+            android:layout_marginRight="2pt"
+            android:layout_below="@+id/loginPagePassword"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_alignEnd="@+id/imageView1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/social"
+            android:layout_above="@+id/loginPageUsername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="36dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/layout/activity_login_page.xml -->

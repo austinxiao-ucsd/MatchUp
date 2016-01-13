@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/event_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/event_content"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/event_title"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="bottom"
+            />
+
+
+
+
+        <LinearLayout android:weightSum="9"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            >
+
+            <Button
+                android:id="@+id/match_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_match"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="Match"
+                android:textColor="#9e9e9e"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:layout_gravity="center|left"
+                android:textAlignment="textStart"
+            />
+
+
+            <Button
+                android:id="@+id/remove_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_remove"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="Remove"
+                android:textColor="#9e9e9e"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:layout_gravity="center|left"
+                android:textAlignment="textStart"
+                />
+
+
+            <Button
+                android:id="@+id/change_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_change"
+                android:focusable="false"
+                android:textColor="#9e9e9e"
+                android:focusableInTouchMode="false"
+                android:text="Change"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:layout_gravity="center|left"
+                android:textAlignment="textStart"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/hongdaxiao/Documents/ProjectMatchUp/app/src/main/res/layout/my_event_item.xml -->

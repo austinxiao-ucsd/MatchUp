@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucsd.stephen_h.matchup" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MatchUpApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity
+            android:name=".LoginPage"
+            android:label="Match Up!" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterPage"
+            android:label="Sign Up" >
+        </activity>
+        <activity android:name=".MyEventListPage" >
+        </activity>
+        <activity
+            android:name=".CreateNewEvent"
+            android:label="Add New Event" >
+        </activity>
+        <activity android:name=".PairedEventDetailPage" >
+        </activity>
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:label="Forget Password" >
+        </activity>
+        <activity android:name=".ProfilePage" >
+        </activity>
+        <activity android:name=".PairedEventListPage" >
+        </activity>
+        <activity
+            android:name=".ResourceLinks"
+            android:label="@string/title_activity_resource_links"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".InterviewLinks"
+            android:label="@string/title_activity_interview_links"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MatchDialog"
+            android:label="@string/title_activity_match_dialog"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Invitation"
+            android:label="@string/title_activity_invitation"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".TestPost"
+            android:label="@string/title_activity_test_post"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".PairedAdapter"
+            android:label="@string/title_activity_paired_adapter"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ChangeExistingEvent"
+            android:label="@string/title_activity_change_existing_event"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".ProfilePageChooseProfileImageActivity" >
+        </activity>
+        <activity android:name=".RegisterPageChooseProfileImageActivity" >
+        </activity>
+        <activity android:name=".InterviewQuestionDetailsActivity" >
+        </activity>
+    </application>
+
+</manifest>
